@@ -1,10 +1,10 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/postgres
-    username: postgres
-    password: 123
+    url: jdbc:postgresql://newssystem-bcloud-server.postgres.database.azure.com:5432/newssystem-bcloud-database?sslmode=require&user=fzlcidsmbs&password=881KTKZW5G238L30%24
+    #username: postgres
+    #password: 123
     driver-class-name: org.postgresql.Driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-      #ddl-auto: create-drop
+      ddl-auto: create-drop
