@@ -50,4 +50,4 @@ jobs:
           app-name: 'NewsAppMaczkaMarc'
           slot-name: 'Production'
           package: '*.war'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F0DAA519D4064D64BC5B1D30E3BBB601 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_21A40B99B7364C6FB5C55E82D4B4035A }}
