@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://newssystem-bcloud-server.postgres.database.azure.com:5432/newssystem-bcloud-database?sslmode=require&user=fzlcidsmbs&password=881KTKZW5G238L30%24
+    url: jdbc:postgresql://newssystem-bcloud-server.postgres.database.azure.com:5432/newssystem-bcloud-database?sslmode=require&user=${DB_USER}&password=${DB_PASSWORD]
     #username: postgres
     #password: 123
     driver-class-name: org.postgresql.Driver
